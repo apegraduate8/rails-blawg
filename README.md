@@ -1,0 +1,1 @@
+# hw-w08-d04-Fancy-Models-in-Rails
