@@ -12,7 +12,8 @@ Ain't nobody got time for files
 
 ## Completion
 
-Completion is out of 6 - one for each user story. Aim to complete the first 4.
+Do it.  Do it all.  Do it with vengeance.  Do it for your family honor.
+
 
 ## Assignment
 
