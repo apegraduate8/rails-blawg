@@ -17,14 +17,21 @@ Do it.  Do it all.  Do it with vengeance.  Do it for your family honor.
 
 ## Assignment
 
-#### User Stories
+### User Stories
+
+#### Part 1: Add and Delete Posts
 You're creating your very own Blog App in Rails! A user should be able to:
 * Land on a welcome page
 * See all existing posts
 * Create a new post (a post should have an author and content)
-* Render an update form for a post with the existing data for that post
-* Update a post
-* Delete a post
+* View individual posts
+
+#### Part 2: Commenting on Posts
+Add functionality to your blog so that:
+* A user can add comments to posts from a form on the individual posts page.
+* A user can delete comments
+
+
 
 ----
 
