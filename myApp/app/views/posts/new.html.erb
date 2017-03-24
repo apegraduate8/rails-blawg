@@ -1,0 +1,13 @@
+
+<%= form_for(@post) do |po| %>
+
+<%= po.label :post_text%>
+<%= po.text_field :post_text%> <br>
+
+<%= po.label :user%>
+<%= po.text_field :user%> <br>
+
+<%= po.submit %>
+
+<% end %>
+

@@ -1,0 +1,32 @@
+
+<h1><%= @post.user %></h1>
+
+
+<p><%= @post.post_text %></p>
+<h3><%=link_to "home", root_path %></h3>
+
+<%@comments.each do |comm|%>
+<div class="post">
+  <h2>comment from : <%= comm.user_name%></h2>
+  <h4><%= comm.text %></h4>
+
+</div>
+
+<% end %>
+
+<h1>ADD NEW COMMENT</h1>
+
+
+<%= form_for(@comment) do |co| %>
+
+<%= co.label :user_name%>
+<%= co.text_field :user_name%> <br>
+
+<%= co.label :text%>
+<%= co.text_field :text%> <br>
+
+
+
+<%= co.submit %>
+
+<% end %>

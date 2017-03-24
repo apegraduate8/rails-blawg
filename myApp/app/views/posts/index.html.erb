@@ -1,0 +1,16 @@
+
+
+
+
+
+<%@posts.each do |p|%>
+<div class="post">
+  <h2><%= p.post_text %></h2>
+  <h2><%= p.user %></h2>
+  <h3><%=link_to "comment?", p %></h3>
+</div>
+
+<% end %>
+
+<h3><%=link_to "new post", new_path %></h3>
+
