@@ -1,7 +1,5 @@
 # Rails Blawg
 
-![](https://media.giphy.com/media/BDDQCaXmBrhCg/giphy.gif)
-
 This homework's gonna be .... off the rails (is that a good thing or bad thing? Let it be whatever you'd like)
 
 Time to get Rails experience, or else Kanye might never hire you. And if you don't like Kanye, maybe you can get a job with Justin Bieber, Gwyneth Paltrow or someone else universally beloved.
